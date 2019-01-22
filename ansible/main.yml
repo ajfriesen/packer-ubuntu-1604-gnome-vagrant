@@ -6,6 +6,7 @@
   roles:
     - geerlingguy.nfs
     - geerlingguy.packer-debian
+    - gnome-vagrant
 
   tasks:
     - apt: "name={{ item }} state=installed"
